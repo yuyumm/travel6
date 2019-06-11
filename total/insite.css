@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+header{
+    position: relative;
+    max-width: 1920px;
+    margin: 10px auto;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+.logo{
+    color: black;
+    height: 60px;
+    font-size: 36px;
+    line-height: 60px;
+    margin: 10px 20px;
+    padding: 0 20px;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav{
+    float: right;
+}
+.fix{
+    clear: both;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    margin: 10px 0px;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a .home{
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background: black;
+    color: #fff;
+    transition: 0.5s;
+}
+@media (max-width: 1920px){
+    header{
+        margin: 20px;
+    }
+}
+section div{
+    width: 1300px; /*글 들어가는거에 따라 바뀔 수 있음*/
+    height: 100%;
+    background-color: #fff;
+    margin: 10px auto;
+    text-align: center;
+}
+section img{
+    width: 1880px;
+    height: 300px;
+    padding: 20px;
+    margin: 0;
+}
+hr{
+    width: 1400px;
+    margin: 15px auto;
+}
+footer{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    color: #666;
+  }
+  footer div{
+    text-align: center;
+  }
